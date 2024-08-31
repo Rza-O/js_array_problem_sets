@@ -5,3 +5,13 @@
  * 4 Remove the last tourist destination you have added
 display the final array as output
  */
+
+const tourismSpot = ['New York', 'Toronto', 'Sajek'];
+
+console.log(tourismSpot);
+//Adding new destination
+tourismSpot.push('Dhaka', 'Peshwar')
+console.log(tourismSpot);
+//Removing last destination
+tourismSpot.pop()
+console.log(tourismSpot) 
